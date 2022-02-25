@@ -1,3 +1,4 @@
+<!-- pos -->
 <?php include('./includes/db_con.php'); ?>
 <?php include('login.php');?>
 <!doctype html>
