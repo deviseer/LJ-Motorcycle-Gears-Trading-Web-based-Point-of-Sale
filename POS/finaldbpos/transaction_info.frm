@@ -1,0 +1,16 @@
+TYPE=VIEW
+query=select `finaldbpos`.`inventory_transactions`.`id` AS `id`,`finaldbpos`.`inventory_transactions`.`transaction_type` AS `transaction_type`,`finaldbpos`.`inventory_transactions`.`transaction_created_date` AS `transaction_created_date`,`finaldbpos`.`inventory_transactions`.`transaction_modified_date` AS `transaction_modified_date`,`finaldbpos`.`inventory_transactions`.`product_id` AS `product_id`,`finaldbpos`.`inventory_transactions`.`quantity` AS `quantity`,`finaldbpos`.`inventory_transactions`.`purchase_order_id` AS `purchase_order_id`,`finaldbpos`.`inventory_transactions`.`customer_order_id` AS `customer_order_id`,`finaldbpos`.`inventory_transactions`.`comments` AS `comments` from `finaldbpos`.`inventory_transactions`
+md5=ab6ef37775f141b1cc61087b558fb265
+updatable=1
+algorithm=0
+definer_user=
+definer_host=
+suid=2
+with_check_option=0
+timestamp=2021-12-19 14:44:22
+create-version=2
+source=SELECT * FROM inventory_transactions
+client_cs_name=utf8mb4
+connection_cl_name=utf8mb4_unicode_ci
+view_body_utf8=select `finaldbpos`.`inventory_transactions`.`id` AS `id`,`finaldbpos`.`inventory_transactions`.`transaction_type` AS `transaction_type`,`finaldbpos`.`inventory_transactions`.`transaction_created_date` AS `transaction_created_date`,`finaldbpos`.`inventory_transactions`.`transaction_modified_date` AS `transaction_modified_date`,`finaldbpos`.`inventory_transactions`.`product_id` AS `product_id`,`finaldbpos`.`inventory_transactions`.`quantity` AS `quantity`,`finaldbpos`.`inventory_transactions`.`purchase_order_id` AS `purchase_order_id`,`finaldbpos`.`inventory_transactions`.`customer_order_id` AS `customer_order_id`,`finaldbpos`.`inventory_transactions`.`comments` AS `comments` from `finaldbpos`.`inventory_transactions`
+mariadb-version=100420

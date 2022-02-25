@@ -1,0 +1,16 @@
+TYPE=VIEW
+query=select `finaldbpos`.`category`.`category_id` AS `category_id`,`finaldbpos`.`category`.`category_name` AS `category_name`,`finaldbpos`.`category`.`category_description` AS `category_description`,`finaldbpos`.`category`.`status` AS `status`,`finaldbpos`.`category`.`notes` AS `notes` from `finaldbpos`.`category`
+md5=5dde1e5638ea6d1a8b038078f91b85d1
+updatable=1
+algorithm=0
+definer_user=
+definer_host=
+suid=2
+with_check_option=0
+timestamp=2021-12-19 14:41:11
+create-version=2
+source=SELECT * FROM category
+client_cs_name=utf8mb4
+connection_cl_name=utf8mb4_unicode_ci
+view_body_utf8=select `finaldbpos`.`category`.`category_id` AS `category_id`,`finaldbpos`.`category`.`category_name` AS `category_name`,`finaldbpos`.`category`.`category_description` AS `category_description`,`finaldbpos`.`category`.`status` AS `status`,`finaldbpos`.`category`.`notes` AS `notes` from `finaldbpos`.`category`
+mariadb-version=100420

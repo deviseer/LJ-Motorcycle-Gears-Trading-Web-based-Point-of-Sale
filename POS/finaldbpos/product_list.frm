@@ -1,0 +1,16 @@
+TYPE=VIEW
+query=select `finaldbpos`.`products`.`supplier_ids` AS `supplier_ids`,`finaldbpos`.`products`.`id` AS `id`,`finaldbpos`.`products`.`product_code` AS `product_code`,`finaldbpos`.`products`.`product_name` AS `product_name`,`finaldbpos`.`products`.`description` AS `description`,`finaldbpos`.`products`.`product_size` AS `product_size`,`finaldbpos`.`products`.`standard_cost` AS `standard_cost`,`finaldbpos`.`products`.`list_price` AS `list_price`,`finaldbpos`.`products`.`reorder_level` AS `reorder_level`,`finaldbpos`.`products`.`target_level` AS `target_level`,`finaldbpos`.`products`.`quantity_per_unit` AS `quantity_per_unit`,`finaldbpos`.`products`.`discontinued` AS `discontinued`,`finaldbpos`.`products`.`minimum_reorder_quantity` AS `minimum_reorder_quantity`,`finaldbpos`.`products`.`category_id` AS `category_id`,`finaldbpos`.`products`.`on_hand` AS `on_hand`,`finaldbpos`.`products`.`date_in` AS `date_in`,`finaldbpos`.`products`.`mark_up` AS `mark_up`,`finaldbpos`.`products`.`updated_at` AS `updated_at`,`finaldbpos`.`products`.`expired_date` AS `expired_date` from `finaldbpos`.`products`
+md5=6ab062e872711bf7f3395ec5903ece19
+updatable=1
+algorithm=0
+definer_user=
+definer_host=
+suid=2
+with_check_option=0
+timestamp=2021-12-19 14:43:17
+create-version=2
+source=SELECT * FROM products
+client_cs_name=utf8mb4
+connection_cl_name=utf8mb4_unicode_ci
+view_body_utf8=select `finaldbpos`.`products`.`supplier_ids` AS `supplier_ids`,`finaldbpos`.`products`.`id` AS `id`,`finaldbpos`.`products`.`product_code` AS `product_code`,`finaldbpos`.`products`.`product_name` AS `product_name`,`finaldbpos`.`products`.`description` AS `description`,`finaldbpos`.`products`.`product_size` AS `product_size`,`finaldbpos`.`products`.`standard_cost` AS `standard_cost`,`finaldbpos`.`products`.`list_price` AS `list_price`,`finaldbpos`.`products`.`reorder_level` AS `reorder_level`,`finaldbpos`.`products`.`target_level` AS `target_level`,`finaldbpos`.`products`.`quantity_per_unit` AS `quantity_per_unit`,`finaldbpos`.`products`.`discontinued` AS `discontinued`,`finaldbpos`.`products`.`minimum_reorder_quantity` AS `minimum_reorder_quantity`,`finaldbpos`.`products`.`category_id` AS `category_id`,`finaldbpos`.`products`.`on_hand` AS `on_hand`,`finaldbpos`.`products`.`date_in` AS `date_in`,`finaldbpos`.`products`.`mark_up` AS `mark_up`,`finaldbpos`.`products`.`updated_at` AS `updated_at`,`finaldbpos`.`products`.`expired_date` AS `expired_date` from `finaldbpos`.`products`
+mariadb-version=100420
