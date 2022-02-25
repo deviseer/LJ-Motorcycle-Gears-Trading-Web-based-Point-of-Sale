@@ -33,6 +33,6 @@
 	<?php include('modals/admin_login_modal.php');?>
 	<?php include('modals/cashier_login_modal.php');?>
 	<?php include('modals/staff_login_modal.php');?>
-
+<!-- Bootstrap CSS -->
 </body>
 </html>
